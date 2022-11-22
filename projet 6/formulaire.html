@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    
+    <header>
+        <div id="logo">
+            <div>
+                <img src="images/ofppt.jpg" alt="">
+                <img class="solicode-logo" src="images/solicode.png" alt="">
+            </div>
+            <img src="images/logo.png" alt="">
+        </div>
+    </header>
+    <form action="">
+        <div id="abou">
+            
+        </div>
+        <p id="aboup">Afin de maintenir la motivation des apprenants, leur offrir des moments agréables <br> d'échange et d'épanouissement, Solicode a pensé à créer des activités parascolaires sous <br> forme de clubs (informatique, robotique, jeux d'échecs, foot,musique, théatre).
+        </p>
+    <section>
+        <h1>Formulaire d'inscription</h1>
+        <div class="inputs">
+            <input type="text" placeholder="Nom" id="nom">
+            <p id="nom-error"></p>
+            <input type="text" placeholder="Prenom" id="prenom">
+            <p id="prenom-error"></p>
+            <input type="text" placeholder="Telephone" id="telephone">
+            <p id="telephone-error"></p>
+            <input type="text" placeholder="Email" id="email">
+            <p id="email-error"></p>
+        </div>
+        <div class="genre">
+            <p>Genre</p>
+            <input type="radio" name="genre" id="femme">Femme
+            <input type="radio" name="genre" id="homme">Homme
+            <p id="erreur"></p>
+        </div>
+        <div>
+            <p>Groupe</p>
+            <input type="radio" name="groupe" >DW101
+            <input type="radio" name="groupe" >DW102
+            <input type="radio" name="groupe" >DW103
+            <input type="radio" name="groupe" >DM101
+            <input type="radio" name="groupe" >DM102
+            <p id="error"></p>
+        </div>
+        <div>
+            <label for="clubs">choisissez votre groupe:</label>
+            <select multiple id="clubs">
+                <option value="Informatique">Informatique</option>
+                <option value="Robotique">Robotique</option>
+                <option value="Jeu d'échecs">Jeu d'échecs</option>
+                <option value="Musique">Musique</option>
+                <option value="Foot">Foot</option>
+                <option value="Théatre">Théatre</option>
+            </select>
+            <p id="club"></p>
+        </div>
+        
+        <input type="submit" id="envoyer">
+        
+    </section>
+    <footer>
+        <p>Copyrights © 2020 All Rights Reserved by SoliCode.co
+        </p>
+    </footer>
+</form>
+    
+</body>
+<script src="formulaire.js"></script>
+</html>
